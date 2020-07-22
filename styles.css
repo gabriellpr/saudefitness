@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+nav {
+  background-color: rgb(29, 28, 28);
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a span {
+  color: white;
+}
+
+#crop {
+  background-image: url("fitness.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: rgb(191, 249, 238);
+  font-size: 70px;
+  padding-top: 25%;
+}
+
+div.container h2 {
+  font-size: 30px;
+  color: white;
+  padding-top: 10%;
+}
+
+div.container p {
+  color: white;
+}
+
+section.row {
+  background-color: black;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+section.row div.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 0px;
+}
+
+section.produtos {
+  padding: 5%;
+}
+
+section.produtos img {
+  border: 2px solid grey;
+}
+
+section.produtos a {
+  text-decoration: none;
+  color: white;
+
+  font-size: 25px;
+
+  padding-top: 3%;
+}
+
+section.produtos a:hover {
+  text-decoration: none;
+  color: rgb(65, 60, 60);
+}
+
+section.footer {
+  background-color: rgb(29, 28, 28);
+  color: white;
+
+  padding: 2%;
+}
