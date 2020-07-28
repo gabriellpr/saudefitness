@@ -85,6 +85,11 @@ section.produtos a:hover {
   color: rgb(65, 60, 60);
 }
 
+section.banner {
+  background-color: black;
+  text-align: center;
+}
+
 section.footer {
   background-color: rgb(29, 28, 28);
   color: white;
